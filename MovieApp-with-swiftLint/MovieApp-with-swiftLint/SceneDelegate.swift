@@ -5,6 +5,7 @@
 //  Created by Hyunwoo Jang on 2022/09/09.
 //
 
+import netfox
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -17,6 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     guard let _ = (scene as? UIWindowScene) else { return }
+    
+    #if DEBUG
+    NFX.sharedInstance().start()
+    #endif
   }
 
   func sceneDidDisconnect(_ scene: UIScene) {

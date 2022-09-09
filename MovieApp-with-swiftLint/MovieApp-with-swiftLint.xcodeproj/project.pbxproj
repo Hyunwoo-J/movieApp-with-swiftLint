@@ -16,6 +16,13 @@
 		2C5CDD4028CB77D300159551 /* MovieApp_with_swiftLintUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CDD3F28CB77D300159551 /* MovieApp_with_swiftLintUITestsLaunchTests.swift */; };
 		2C5CDD4E28CB783100159551 /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CDD4D28CB783100159551 /* UIView+Preview.swift */; };
 		2C5CDD5028CB784000159551 /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CDD4F28CB784000159551 /* UIViewController+Preview.swift */; };
+		2C5CDD5428CB7A5800159551 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD5328CB7A5800159551 /* SnapKit */; };
+		2C5CDD5728CB7A8900159551 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD5628CB7A8900159551 /* Alamofire */; };
+		2C5CDD5A28CB7A9A00159551 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD5928CB7A9A00159551 /* Kingfisher */; };
+		2C5CDD5D28CB7AA500159551 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD5C28CB7AA500159551 /* Then */; };
+		2C5CDD6028CB7AAF00159551 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD5F28CB7AAF00159551 /* BonMot */; };
+		2C5CDD6328CB7AD100159551 /* ReusableKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD6228CB7AD100159551 /* ReusableKit */; };
+		2C5CDD6628CB7AF700159551 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 2C5CDD6528CB7AF700159551 /* netfox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5CDD6028CB7AAF00159551 /* BonMot in Frameworks */,
+				2C5CDD5A28CB7A9A00159551 /* Kingfisher in Frameworks */,
+				2C5CDD6328CB7AD100159551 /* ReusableKit in Frameworks */,
+				2C5CDD5428CB7A5800159551 /* SnapKit in Frameworks */,
+				2C5CDD6628CB7AF700159551 /* netfox in Frameworks */,
+				2C5CDD5728CB7A8900159551 /* Alamofire in Frameworks */,
+				2C5CDD5D28CB7AA500159551 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +165,15 @@
 			dependencies = (
 			);
 			name = "MovieApp-with-swiftLint";
+			packageProductDependencies = (
+				2C5CDD5328CB7A5800159551 /* SnapKit */,
+				2C5CDD5628CB7A8900159551 /* Alamofire */,
+				2C5CDD5928CB7A9A00159551 /* Kingfisher */,
+				2C5CDD5C28CB7AA500159551 /* Then */,
+				2C5CDD5F28CB7AAF00159551 /* BonMot */,
+				2C5CDD6228CB7AD100159551 /* ReusableKit */,
+				2C5CDD6528CB7AF700159551 /* netfox */,
+			);
 			productName = "MovieApp-with-swiftLint";
 			productReference = 2C5CDD1928CB77D200159551 /* MovieApp-with-swiftLint.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +246,15 @@
 				Base,
 			);
 			mainGroup = 2C5CDD1028CB77D200159551;
+			packageReferences = (
+				2C5CDD5228CB7A5800159551 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2C5CDD5528CB7A8900159551 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2C5CDD5828CB7A9A00159551 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				2C5CDD5B28CB7AA500159551 /* XCRemoteSwiftPackageReference "Then" */,
+				2C5CDD5E28CB7AAF00159551 /* XCRemoteSwiftPackageReference "BonMot" */,
+				2C5CDD6128CB7AD100159551 /* XCRemoteSwiftPackageReference "ReusableKit" */,
+				2C5CDD6428CB7AF700159551 /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			productRefGroup = 2C5CDD1A28CB77D200159551 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +634,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C5CDD5228CB7A5800159551 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		2C5CDD5528CB7A8900159551 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2C5CDD5828CB7A9A00159551 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2C5CDD5B28CB7AA500159551 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2C5CDD5E28CB7AAF00159551 /* XCRemoteSwiftPackageReference "BonMot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/BonMot.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		2C5CDD6128CB7AD100159551 /* XCRemoteSwiftPackageReference "ReusableKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Hyunwoo-J/ReusableKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2C5CDD6428CB7AF700159551 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C5CDD5328CB7A5800159551 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD5228CB7A5800159551 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2C5CDD5628CB7A8900159551 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD5528CB7A8900159551 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2C5CDD5928CB7A9A00159551 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD5828CB7A9A00159551 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		2C5CDD5C28CB7AA500159551 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD5B28CB7AA500159551 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		2C5CDD5F28CB7AAF00159551 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD5E28CB7AAF00159551 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		2C5CDD6228CB7AD100159551 /* ReusableKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD6128CB7AD100159551 /* XCRemoteSwiftPackageReference "ReusableKit" */;
+			productName = ReusableKit;
+		};
+		2C5CDD6528CB7AF700159551 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C5CDD6428CB7AF700159551 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C5CDD1128CB77D200159551 /* Project object */;
 }
