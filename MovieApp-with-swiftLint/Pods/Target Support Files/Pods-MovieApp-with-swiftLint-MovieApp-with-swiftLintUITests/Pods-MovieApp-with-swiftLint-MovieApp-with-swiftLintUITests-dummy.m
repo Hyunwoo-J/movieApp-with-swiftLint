@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MovieApp_with_swiftLint_MovieApp_with_swiftLintUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MovieApp_with_swiftLint_MovieApp_with_swiftLintUITests
+@end

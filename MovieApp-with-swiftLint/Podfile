@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MovieApp-with-swiftLint' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MovieApp-with-swiftLint
+pod "SwiftLint"
+
+  target 'MovieApp-with-swiftLintTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MovieApp-with-swiftLintUITests' do
+    # Pods for testing
+  end
+
+end

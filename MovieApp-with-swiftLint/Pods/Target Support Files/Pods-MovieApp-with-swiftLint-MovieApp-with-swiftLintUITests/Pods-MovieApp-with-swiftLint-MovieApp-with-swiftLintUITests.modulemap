@@ -1,0 +1,6 @@
+framework module Pods_MovieApp_with_swiftLint_MovieApp_with_swiftLintUITests {
+  umbrella header "Pods-MovieApp-with-swiftLint-MovieApp-with-swiftLintUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
